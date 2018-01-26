@@ -5,11 +5,11 @@
   - prod mode run: `docker-compose -f docker-compose-prod.yml up` browse `localhost`
 
 #### CRUD Endpoints
-  - `GET` `localhost:3001/hotel`
-  - `POST` `localhost:3001/hotel`
-  - `GET` `localhost:3001/hotel/:id`
-  - `PUT` `localhost:3001/hotel/:id`
-  - `DELETE` `localhost:3001/hotel/:id`
+  - `GET` `localhost:3001/api/1/hotel`
+  - `POST` `localhost:3001/api/1/hotel`
+  - `GET` `localhost:3001/api/1/hotel/:id`
+  - `PUT` `localhost:3001/api/1/hotel/:id`
+  - `DELETE` `localhost:3001/api/1/hotel/:id`
 
 #### Parse Dashboard Endpoint
   - `localhost:4040` Credentials `api` `password`
